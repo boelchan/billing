@@ -1,0 +1,29 @@
+{
+  "menu": [
+    {
+      "url" : "/",
+      "name": "Dashboards",
+      "icon": "home",
+      "guard": [
+        "all"
+      ],
+      "slug": ""
+    },
+    {
+      "navheader": "User",
+      "guard": [
+        "administrator"
+      ],
+      "slug": ""
+    },
+    {
+      "url": "user",
+      "name": "Operator",
+      "icon": "users",
+      "guard": [
+        "administrator"
+      ],
+      "slug": "user"
+    }
+  ]
+}
